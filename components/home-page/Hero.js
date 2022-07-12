@@ -6,13 +6,14 @@ const Hero = () => {
     <section className={classes.hero}>
       <div className={classes.image}>
         <Image
-          src="/images/site/max.png"
+          src="/images/site/passport.jpeg"
           alt="An Image  showing Max"
           width={300}
           height={300}
+          layout="responsive"
         />
       </div>
-      <h1>Hi, I&apos;m max</h1>
+      <h1>Hi, I&apos;m Emmanuel</h1>
       <p>
         I bog about web development - especially frontend frameworks like React
       </p>
