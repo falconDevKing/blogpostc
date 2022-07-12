@@ -1,9 +1,9 @@
 import { MongoClient } from "mongodb";
 
-const url = `mongodb+srv://${process.env.mongoUsername}:${process.env.mongoPassword}@emmanuellearn.2fofu.mongodb.net/?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@emmanuellearn.2fofu.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(url);
 
-const dbName = process.env.mongoDB;
+const dbName = process.env.MONGO_DB;
 
 const useDB = async (collectionName) => {
   // Use connect method to connect to the server
