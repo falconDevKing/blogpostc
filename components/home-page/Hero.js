@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={classes.image}>
         <Image
           src="/images/site/passport.jpeg"
-          alt="An Image  showing Max"
+          alt="An Image  showing Emmanuel"
           width={300}
           height={300}
           layout="responsive"
